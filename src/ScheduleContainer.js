@@ -39,7 +39,7 @@ const colorCode = { A: "blue", B: "red", C:"green", D:"yellow", E:"orange"};
 const ScheduleCard = (props) => (
       <Popup trigger={
         <div className='Schedule-Card' style={{border:"solid "+props.color}}>
-          <AbstractTitle title = {props.title} color = {props.color}/>
+          <AbstractTitle style={{backgroundColor:props.color}} title = {props.title} color = {props.color}/>
           <Author author = {props.author} />
           <Agency agency = {props.agency} />
           <TimeAndPlace time = {props.time} place = {props.place} />

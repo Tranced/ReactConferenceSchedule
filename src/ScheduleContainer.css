@@ -83,7 +83,6 @@ label div {
 
 .title {
   padding: 3%;
-  border-radius: 3%;
   font-size: 1em;
   font-weight:bold;
   text-align: center;
@@ -118,7 +117,7 @@ img{
 
 .Schedule-Card{
   background-color: white;
-  border-radius: 3%;
+  border-radius: .5em;
   min-height: 10em;
   max-width: 50em;
   min-width: 20em;
