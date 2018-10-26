@@ -2,7 +2,7 @@
   "name": "pepfar-schedule",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tranced.github.io/ReactConferenceSchedule",
+  "homepage": "https://tranced.github.io/ReactConferenceSchedule",
 
   "dependencies": {
     "faker": "^4.1.0",
@@ -19,8 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deployToPages": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
