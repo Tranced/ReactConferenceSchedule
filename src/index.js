@@ -1,15 +1,16 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
 import ScheduleContainer from './ScheduleContainer';
 
-// ReactDOM.render(<ScheduleContainer />, document.getElementById('root'));
+ReactDOM.render(<ScheduleContainer />, document.getElementById('root'));
 
 
-import { hydrate, render } from 'react-dom';
+// import { hydrate, render } from 'react-dom';
 
-const rootElement = document.getElementById('root');
-if (rootElement.hasChildNodes()) {
-  hydrate(<ScheduleContainer />, rootElement);
-} else {
-  render(<ScheduleContainer />, rootElement);
-}
+// const rootElement = document.getElementById('root');
+// if (rootElement.hasChildNodes()) {
+//   hydrate(<ScheduleContainer />, rootElement);
+// } else {
+//   render(<ScheduleContainer />, rootElement);
+// }
