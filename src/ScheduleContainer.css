@@ -1,0 +1,125 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}*/
+::-webkit-scrollbar { 
+    display: none; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+label{
+
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    position:relative;
+    margin: 0 2px;
+}
+
+
+label div {
+	display: block;
+	overflow: hidden;
+    position: absolute;
+    border-radius: .5em;    
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+	background-color: #222;
+	touch-action:auto;
+	width:100%;
+}
+
+.Legend{
+	display: inline-grid;
+	color:white;
+	text-align: left;
+	font-size: .3em;
+	font-weight: normal;
+}
+
+.Header{
+  position: sticky;
+  top:0;
+  background-color: #222;
+  width: 100%;
+  color:white;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  display: inline-grid;
+}
+
+.title {
+  padding: 3%;
+  border-radius: 3%;
+  font-size: 1em;
+  font-weight:bold;
+  text-align: center;
+  background-color: #222;
+}
+
+.scroll-up {
+	position: absolute;
+	width:10%;
+	bottom:20%;
+	right:0;
+}
+
+.scroll-down{
+	position: absolute;
+	width:10%;
+	bottom:0;	
+	right:0;
+}
+
+img{
+	width:25%;
+	height: 25%;
+}
+.Schedule-Container{
+  padding-top:1em;
+  display:inline-grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap:5%;
+  grid-row-gap:2em;
+}
+
+.Schedule-Card{
+  background-color: white;
+  border-radius: 3%;
+  min-height: 10em;
+  max-width: 50em;
+  min-width: 20em;
+}
