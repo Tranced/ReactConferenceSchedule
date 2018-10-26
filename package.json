@@ -2,7 +2,7 @@
   "name": "pepfar-schedule",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tranced.github.io/ReactConferenceSchedule",
+  "homepage": ".",
 
   "dependencies": {
     "faker": "^4.1.0",
